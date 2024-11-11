@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Grado Babo - Italian Restaurant Website
 
-First, run the development server:
+Welcome to **Grado Babo**, an authentic Italian dining experience brought to life through this website. Grado Babo is a fine-dining Italian restaurant that celebrates Italy’s rich culinary heritage, offering a variety of traditional dishes crafted with passion and premium ingredients.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project showcases a sleek and user-friendly website design for **Grado Babo**, where visitors can explore the restaurant’s menu, reserve tables, and immerse themselves in the ambiance of Italian dining. The site is designed to be responsive and visually engaging, combining functionality with aesthetics to represent the restaurant's brand identity.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Dynamic Menu**: Browse through a diverse selection of Italian dishes with descriptions, prices, and chef recommendations.
+- **Table Reservations**: A streamlined reservation system allows customers to book tables easily.
+- **About Us**: Learn about Grado Babo’s story, mission, and commitment to quality.
+- **Photo Gallery**: Experience the restaurant's atmosphere with a curated gallery showcasing interiors, dishes, and past events.
+- **Contact Information**: Essential information including location, hours, and a contact form for inquiries.
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend**: Next.js, React.js, Tailwind CSS for a modern, responsive design
+- **Backend**: Node.js with Express for handling reservations and contact form submissions
+- **Database**: MongoDB for managing reservations and customer feedback
+- **Deployment**: Hosted on Vercel for fast, reliable, and scalable performance
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
