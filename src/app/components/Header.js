@@ -7,18 +7,18 @@ export default function Header() {
                 <Image
                     src="./images/Frame 82 left.svg"
                     alt="Responsive SVG"
-                    width={400}
-                    height={400}
+                    width={324}
+                    height={94}
                     className="w-full h-20 "
                 />
             </div>
-            <h1 className="font-medium tracking-wider font-figtree text-lg text-strongText uppercase">Grado Babo</h1>
+            <h1 className="font-figtree text-lg text-strongText uppercase font-medium tracking-widest">Grado Babo</h1>
             <div className="">
                 <Image
                     src="./images/Frame 82.svg"
                     alt="Responsive SVG"
-                    width={400} // specify a width
-                    height={400} // specify a height
+                    width={324} 
+                    height={94} 
                     className="w-full h-20"
                 />
             </div>
