@@ -12,6 +12,7 @@ export default function Gallery() {
                         height={600}
                         className="object-cover w-full h-full"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="grid grid-cols-1 gap-1">
@@ -23,6 +24,7 @@ export default function Gallery() {
                             height={200}
                             className="object-cover w-full h-auto"
                             draggable="false"
+                            priority
                         />
                     </div>
                     <div className="relative">
@@ -33,6 +35,7 @@ export default function Gallery() {
                             height={200}
                             className="object-cover w-full h-auto"
                             draggable="false"
+                            priority
                         />
                     </div>
                 </div>
@@ -47,6 +50,7 @@ export default function Gallery() {
                         height={150}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -57,6 +61,7 @@ export default function Gallery() {
                         height={150}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -67,7 +72,9 @@ export default function Gallery() {
                         height={150}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
+
                 </div>
             </div>
 
@@ -80,6 +87,7 @@ export default function Gallery() {
                         height={150}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -90,6 +98,7 @@ export default function Gallery() {
                         height={150}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
             </div>
