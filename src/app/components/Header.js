@@ -9,6 +9,7 @@ export default function Header() {
                     alt="Responsive SVG"
                     width={324}
                     height={94}
+                    quality={100}
                     className="w-auto h-20 pr-5"
                     priority
                 />
@@ -19,6 +20,7 @@ export default function Header() {
                     alt="Responsive Logo"
                     width={324}
                     height={94}
+                    quality={100}
                     className="w-auto h-24 py-2"
                     priority
                 />
@@ -29,6 +31,7 @@ export default function Header() {
                     alt="Responsive SVG"
                     width={324}
                     height={94}
+                    quality={100}
                     className="w-auto h-20  pl-5"
                     priority
                 />

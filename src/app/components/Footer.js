@@ -10,6 +10,8 @@ export default function Footer() {
                     width={324}
                     height={94}
                     className="w-auto h-16 mb-10"
+                    priority
+                    quality={100}
                 />
 
             </div>
