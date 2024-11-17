@@ -24,7 +24,7 @@ export default function Contact() {
                 </div>
                 <div className="h-full rounded-xs bg-transparent flex flex-col items-center justify-center p-6">
                     <Image
-                        src={'/images/email.svg'}
+                        src={'/images/Email.svg'}
                         className="mb-4"
                         width={32}
                         height={32}
@@ -37,7 +37,7 @@ export default function Contact() {
                 </div>
                 <div className="h-full rounded-xs bg-transparent flex flex-col items-center justify-center p-6">
                     <Image
-                        src={'/images/contact.svg'}
+                        src={'/images/Contact.svg'}
                         className="mb-4"
                         width={32}
                         height={32}

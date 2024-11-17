@@ -23,7 +23,7 @@ module.exports = {
         figtree: ['Figtree', 'sans-serif'],
       },
       backgroundImage: {
-        hero: "url('/images/background.svg')",
+        hero: "url('/images/BackgroundHero.svg')",
         heroRight: "url('/images/heroImage.png')",
       }
     },
