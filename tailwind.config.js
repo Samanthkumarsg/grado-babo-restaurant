@@ -10,22 +10,21 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        primary:"#D03970",
+        primary: "#D03970",
         fill: "#F7DDE3",
-        lightfill:"#FFF2F5",
+        lightfill: "#FFF2F5",
         weak: "#D5D1D2",
         strong: "#330C1A",
         textWeak: "#765B64",
-        strongText: "#330C1A"
+        strongText: "#330C1A",
       },
       fontFamily: {
         playfair: ['Playfair Display', 'serif'],
         figtree: ['Figtree', 'sans-serif'],
       },
-      backgroundImage:{
+      backgroundImage: {
         hero: "url('/images/background.svg')",
         heroRight: "url('/images/heroImage.png')",
-
       }
     },
   },
