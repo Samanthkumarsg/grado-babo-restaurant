@@ -31,7 +31,7 @@ export default function Feedback() {
     }, [slidesToShow.length]); // This effect runs when the length of slides changes
 
     return (
-        <div className="w-full py-28 bg-local bg-hero bg-cover bg-center flex items-center justify-center flex-col">
+        <div className="w-full py-28 bg-white bg-local bg-hero bg-cover bg-center flex items-center justify-center flex-col">
             <h1 className="text-sm tracking-widest text-strongText uppercase font-medium ">
                 What Our Customers Say
             </h1>
