@@ -74,7 +74,7 @@ export default function Gallery() {
             <div className="grid grid-cols-2 gap-1">
                 <div className="relative">
                     <Image
-                        src="/images/b1.png"
+                        src="/images/B1.png"
                         alt="Image 7"
                         width={200}
                         height={150}
@@ -84,7 +84,7 @@ export default function Gallery() {
                 </div>
                 <div className="relative">
                     <Image
-                        src="/images/b2.png"
+                        src="/images/B2.png"
                         alt="Image 8"
                         width={200}
                         height={150}
