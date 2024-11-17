@@ -10,8 +10,10 @@ export default function Gallery() {
                         alt="Image 1"
                         width={400}
                         height={600}
+                        quality={100}
                         className="object-cover w-full h-full"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="grid grid-cols-1 gap-1">
@@ -21,8 +23,10 @@ export default function Gallery() {
                             alt="Image 2"
                             width={200}
                             height={200}
+                            quality={100}
                             className="object-cover w-full h-auto"
                             draggable="false"
+                            priority
                         />
                     </div>
                     <div className="relative">
@@ -31,8 +35,10 @@ export default function Gallery() {
                             alt="Image 3"
                             width={200}
                             height={200}
+                            quality={100}
                             className="object-cover w-full h-auto"
                             draggable="false"
+                            priority
                         />
                     </div>
                 </div>
@@ -45,8 +51,10 @@ export default function Gallery() {
                         alt="Image 4"
                         width={150}
                         height={150}
+                        quality={100}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -55,8 +63,10 @@ export default function Gallery() {
                         alt="Image 5"
                         width={150}
                         height={150}
+                        quality={100}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -65,9 +75,12 @@ export default function Gallery() {
                         alt="Image 6"
                         width={150}
                         height={150}
+                        quality={100}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
+
                 </div>
             </div>
 
@@ -78,8 +91,10 @@ export default function Gallery() {
                         alt="Image 7"
                         width={200}
                         height={150}
+                        quality={100}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
                 <div className="relative">
@@ -88,8 +103,10 @@ export default function Gallery() {
                         alt="Image 8"
                         width={200}
                         height={150}
+                        quality={100}
                         className="object-cover w-full h-auto"
                         draggable="false"
+                        priority
                     />
                 </div>
             </div>
