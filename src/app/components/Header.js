@@ -10,6 +10,7 @@ export default function Header() {
                     width={324}
                     height={94}
                     className="w-auto h-20 pr-5"
+                    priority
                 />
             </div>
             <div className="flex items-center">
@@ -19,6 +20,7 @@ export default function Header() {
                     width={324}
                     height={94}
                     className="w-auto h-24 py-2"
+                    priority
                 />
             </div>
             <div className="flex items-center">
@@ -28,6 +30,7 @@ export default function Header() {
                     width={324}
                     height={94}
                     className="w-auto h-20  pl-5"
+                    priority
                 />
             </div>
         </div>
