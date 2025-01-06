@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function PaymentOptions() {
     return (
-        <div className="py-20 w-full flex flex-col items-center justify-center bg-lightfill">
+        <div className="px-8 py-20 w-full flex flex-col items-center justify-center bg-lightfill">
             <div className="flex items-center justify-center flex-col">
                 <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">
                     Pay with ease
                 </h1>
-                <h1 className="mt-2 font-bold tracking-wide text-4xl text-strongText  ">
+                <h1 className="mt-2 font-bold tracking-wide text-4xl text-strongText text-center ">
                     Available Payment Options
                 </h1>
                 <p className="mt-4 text-xl text-pretty leading-relaxed tracking-wide  text-textWeak font-normal max-w-xl text-center">

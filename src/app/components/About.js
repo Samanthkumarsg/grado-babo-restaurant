@@ -24,7 +24,7 @@ export default function About() {
                         <br />
                         Grado Babo is more than just a restaurant—it’s an unforgettable experience. Come and discover the magic of vegan Italian cuisine. See you soon!
                     </p>
-                    <div className="mt-8">
+                    <div className="mt-8 flex items-center justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start">
                         <button className="uppercase text-primary text-sm border-2 border-primary px-20 py-2.5  rounded-md font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
                             Know More
                         </button>
