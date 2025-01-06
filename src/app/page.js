@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Feedback from "./components/Feedback";
 import Footer from "./components/Footer";
@@ -6,15 +7,26 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import PaymentOptions from "./components/PaymentOptions";
 import Services from "./components/Services";
+import CusineSection from "./components/CusineSection";
+import WineSection from "./components/WineSection";
+import Booking from "./components/Booking";
+import Hero from "./components/Hero";
+import BookSpecialMenu from "./components/BookSpecialMenu";
 
 export default function Page() {
   return (
     <div className="">
-      <Header />
-      <HeroSection />
+      {/* <Header /> */}
+      <Hero />
+      {/* <HeroSection /> */}
       <Feedback />
+      <CusineSection />
+      <BookSpecialMenu />
+      <WineSection />
+      <Booking />
       <Services />
-      <Gallery />
+      <About />
+      {/* <Gallery /> */}
       <PaymentOptions />
       <Contact />
       <Footer />
