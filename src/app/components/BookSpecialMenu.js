@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const BookSpecialMenu = () => {
     return (
-        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-stretch justify-between bg-fill ">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-stretch justify-between bg-fill bg-hero">
             <div className="flex-1 flex sm:flex md:hidden lg:flex xl:flex items-center justify-start relative py-6">
                 <Image
                     src={'/images/Frame 82 left.svg'}

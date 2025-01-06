@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Booking = () => {
     return (
-        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-stretch justify-between bg-fill  ">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-stretch justify-between bg-fill bg-hero ">
             <div className="flex-1 flex sm:flex md:hidden lg:flex xl:flex items-start justify-start relative ">
                 <Image
                     src={'/images/wines.svg'}
