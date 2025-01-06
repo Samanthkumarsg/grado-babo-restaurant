@@ -52,7 +52,7 @@ export default function WineSection() {
 
                     <h1 className="text-2xl font-bold tracking-wide text-strong mt-6 ">Mocktails</h1>
                     <p className="text-textWeak text-xl mt-2 max-w-2xl md:w-full text-pretty leading-relaxed ">
-                        Our place isn't just about wines—dive into our creative world of mocktails! Refreshing, flavorful, and alcohol-free, our mocktails are crafted with the finest ingredients to bring you a perfect blend of taste and originality. Experience a new way to toast, full of color and creativity!
+                        Our place isn&apos;t just about wines—dive into our creative world of mocktails! Refreshing, flavorful, and alcohol-free, our mocktails are crafted with the finest ingredients to bring you a perfect blend of taste and originality. Experience a new way to toast, full of color and creativity!
                     </p>
 
                 </div>
