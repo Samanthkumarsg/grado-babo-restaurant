@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact() {
     return (
-        <div className="h-full  w-full border-r px-8 py-16 flex flex-col items-center justify-center bg-white bg-local ">
+        <div className="h-full  w-full border-r px-8 py-16 flex flex-col items-center justify-center bg-white bg-local bg-hero ">
             <div className="w-full max-w-screen-xl flex flex-col ">
                 <div className="flex items-start justify-center flex-col">
                     <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">

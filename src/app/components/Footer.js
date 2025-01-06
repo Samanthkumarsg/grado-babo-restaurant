@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <div className="w-full bg-strongBrown py-20 md:py-20 flex flex-col items-center justify-center">
+        <div className="w-full bg-strongBrown py-20 md:py-20 flex flex-col items-center justify-center bg-hero">
             <div className="flex items-center">
                 <div className='flex items-center justify-center flex-col'>
-                    <h1 className='text-weak text-xl font-medium uppercase tracking-wider '>Grado Babo</h1>
-                    <h1 className='text-weak text-xs font-normal tracking-wider uppercase '>An Italian Vegan Restaurant</h1>
+                    <h1 className='text-white text-xl font-medium uppercase tracking-wider '>Grado Babo</h1>
+                    <h1 className='text-white text-xs font-normal tracking-wider uppercase mt-1 '>An Italian Vegan Restaurant</h1>
 
                 </div>
             </div>

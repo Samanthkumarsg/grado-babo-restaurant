@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
     return (
-        <div className="w-full px-8 py-28 flex flex-col items-center justify-around bg-lightfill bg-hero">
+        <div className="w-full px-8 py-28 flex flex-col items-center justify-around bg-lightfill ">
             <div className="w-full max-w-screen-xl flex flex-col items-start justify-start ">
                 <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">
                     Our Services
@@ -13,7 +13,7 @@ export default function Services() {
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 mt-8  gap-8 ">
-                    <div className="bg-white rounded-xl flex flex-col items-start p-8 drop-shadow-md  ">
+                    <div className="bg-white rounded-xl flex flex-col items-start p-8 drop-shadow-md ">
                         <div className="bg-lightfill rounded-full  flex items-center justify-center w-14 h-14 ">
                             <Image
                                 src={'/images/icons/home-delivery.svg'}
