@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div className="w-full bg-lightfill px-8 py-16  flex items-center justify-center bg-hero bg-bottom ">
+        <div className="w-full bg-lightfill px-8 py-16  flex items-center justify-center  bg-bottom ">
             <div className="w-full max-w-screen-xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 items-center justify-center ">
                 <div className=" flex items-center justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start w-full">
                     <Image

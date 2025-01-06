@@ -42,7 +42,7 @@ const CusineImages = () => {
 
 export default function CusineSection() {
     return (
-        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center bg-hero">
+        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center">
             <div className="max-w-screen-2xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center ">
 
                 <div className="hidden xs:hidden  sm:hidden md:hidden lg:flex xl:flex   ">
