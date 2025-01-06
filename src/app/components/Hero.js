@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="h-[90vh] w-full">
+    <div className="h-[86vh] w-full">
       <div className="h-full w-full border-r p-3 flex flex-col items-center justify-center py-14 bg-lightfill bg-local bg-hero animate-bg-hero">
         <div className="flex items-center">
           <Image
