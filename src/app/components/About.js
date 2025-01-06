@@ -6,7 +6,7 @@ export default function About() {
             <div className="w-full max-w-screen-xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8 items-center justify-center ">
                 <div className=" flex items-center justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start w-full">
                     <Image
-                        src={'/images/About.svg'}
+                        src={'/images/about.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
