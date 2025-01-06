@@ -2,14 +2,14 @@ import Image from "next/image"
 
 const Booking = () => {
     return (
-        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row xl:flex-row items-stretch justify-between bg-fill bg-hero ">
-            <div className="flex-1 flex sm:flex md:hidden lg:flex xl:flex items-start justify-start relative ">
+        <div className="flex flex-col sm:flex-col md:flex-col lg:flex-row xl:flex-row items-stretch justify-between bg-fill bg-hero ">
+            <div className="flex-1 flex sm:flex md:flex lg:flex xl:flex items-start justify-start relative ">
                 <Image
                     src={'/images/wines.svg'}
                     width={500}
                     height={500}
                     alt="Catering Icon"
-                    className=" object-contain w-2/3 h-auto"
+                    className=" object-contain w-1/3 sm:w-1/3 md:w-1/3 lg:w-2/3 xl:w-2/3 h-auto"
                 />
             </div>
             <div className="flex-1 flex flex-col items-center justify-center py-16 px-6 ">
@@ -33,7 +33,7 @@ const Booking = () => {
                     src={'/images/wine.svg'}
                     width={500}
                     height={500}
-                    className="object-contain h-auto w-1/2 "
+                    className="object-contain h-auto w-1/3 sm:w-1/3 md:w-1/3 lg:w-1/2 xl:w-1/2 "
                     alt="Wine"
                 />
             </div>
