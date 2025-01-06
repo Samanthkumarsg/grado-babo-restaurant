@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="h-[90vh] w-full">
+    <div className="h-[86vh] w-full">
       <div className="h-full w-full border-r p-3 flex flex-col items-center justify-center py-14 bg-lightfill bg-local bg-hero animate-bg-hero">
         <div className="flex items-center">
           <Image
@@ -21,7 +21,7 @@ export default function Hero() {
         <h6 className="text-textWeak font-medium text-md md:text-lg lg:text-lg xl:text-lg   uppercase tracking-widest">
           An Italian Vegan Restaurant
         </h6>
-        <div className="max-w-2xl  text-textWeak text-2xl  font-playfair tracking-wider  font-normal mt-6 flex flex-col text-center leading-normal">
+        <div className="max-w-2xl  text-textWeak text-xl  font-playfair tracking-wider  font-normal mt-6 flex flex-col text-center leading-normal">
           Experience the magic of refined Italian cuisine in Berlin crafted with fresh, seasonal ingredients and boundless passion.
         </div>
         <div className="max-w-2xl  text-textWeak text-xl tracking-wider  font-normal flex flex-col text-center leading-7 mt-4 mb-10">
