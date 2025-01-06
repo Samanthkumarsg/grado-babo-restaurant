@@ -15,15 +15,11 @@ export default function Header() {
                 />
             </div>
             <div className="flex items-center">
-                <Image
-                    src="/images/Logo.svg"
-                    alt="Responsive Logo"
-                    width={324}
-                    height={94}
-                    quality={100}
-                    className="w-auto h-24 py-2"
-                    priority
-                />
+                <div className='flex items-center justify-center flex-col'>
+                    <h1 className='text-[180A0E] text-xl font-medium uppercase tracking-wider '>Grado Babo</h1>
+                    <h1 className='text-textWeak text-xs font-normal tracking-wider uppercase '>An Italian Vegan Restaurant</h1>
+
+                </div>
             </div>
             <div className="flex items-center">
                 <Image
@@ -32,7 +28,7 @@ export default function Header() {
                     width={324}
                     height={94}
                     quality={100}
-                    className="w-auto h-20  pl-5"
+                    className="w-auto h-20 pl-5"
                     priority
                 />
             </div>

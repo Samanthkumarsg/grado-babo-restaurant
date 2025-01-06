@@ -2,23 +2,18 @@ import Image from "next/image";
 
 export default function Footer() {
     return (
-        <div className="w-full bg-fill py-10 md:py-18 flex flex-col items-center justify-center">
+        <div className="w-full bg-strongBrown py-20 md:py-20 flex flex-col items-center justify-center">
             <div className="flex items-center">
-                <Image
-                    src="/images/Logo.svg"
-                    alt="Responsive Logo"
-                    width={324}
-                    height={94}
-                    className="w-auto h-16 mb-10"
-                    priority
-                    quality={100}
-                />
+                <div className='flex items-center justify-center flex-col'>
+                    <h1 className='text-weak text-xl font-medium uppercase tracking-wider '>Grado Babo</h1>
+                    <h1 className='text-weak text-xs font-normal tracking-wider uppercase '>An Italian Vegan Restaurant</h1>
 
+                </div>
             </div>
-            <div className=" uppercase text-[#180A0E] flex items-center justify-center flex-col md:flex-row gap-6 md:gap-12 font-medium font-figtree">
-                <h1 className="text-sm md:text-base">imprint</h1>
-                <h1 className="text-sm md:text-base">Data Privacy</h1>
-                <h1 className="text-sm md:text-base">Change cookie settings</h1>
+            <div className="mt-10 uppercase text-weak flex items-center justify-center flex-col md:flex-row gap-6 md:gap-12 font-medium font-figtree *:tracking-wider">
+                <h1 className="text-xs ">imprint</h1>
+                <h1 className="text-xs ">Data Privacy</h1>
+                <h1 className="text-xs ">Change cookie settings</h1>
             </div>
         </div>
     );
