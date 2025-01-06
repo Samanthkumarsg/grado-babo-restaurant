@@ -15,7 +15,7 @@ const Booking = () => {
             <div className="flex-1 flex flex-col items-center justify-center py-16 px-6 ">
                 <div className="mb-2">
                     <Image
-                        src={'/images/eventbrite-logo.svg'}
+                        src={'/images/eventbrite.svg'}
                         width={0}
                         height={0}
                         alt="Eventbrite"
