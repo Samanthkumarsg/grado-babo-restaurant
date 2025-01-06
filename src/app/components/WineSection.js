@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const WineImages = () => {
     return (
-        <div className=" flex items-start flex-row sm:flex-row md:flex-row lg:flex-col xl:flex-col justify-start md:justify-center lg:justify-start xl:justify-start w-full p-2  ">
+        <div className=" flex items-start flex-row sm:flex-row md:flex-row lg:flex-col xl:flex-col justify-center md:justify-center lg:justify-start xl:justify-start w-full px-2 py-4 ">
 
             <div className="w-full flex-1 flex items-start justify-center ">
                 <Image
