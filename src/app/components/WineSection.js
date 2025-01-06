@@ -30,7 +30,7 @@ const WineImages = () => {
 
 export default function WineSection() {
     return (
-        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center bg-hero ">
+        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center">
             <div className="w-full max-w-screen-xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center ">
 
 
