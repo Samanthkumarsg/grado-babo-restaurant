@@ -19,7 +19,7 @@ const Booking = () => {
                         width={0}
                         height={0}
                         alt="Eventbrite"
-                        className="w-36 h-2  "
+                        className="w-36 h-20 "
                     />
                 </div>
                 <h1 className="text-4xl text-strongText font-bold mb-2 text-center"> Wine tasting event</h1>
