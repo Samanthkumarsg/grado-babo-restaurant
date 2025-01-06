@@ -13,13 +13,13 @@ const Booking = () => {
                 />
             </div>
             <div className="flex-1 flex flex-col items-center justify-center py-16 px-6 ">
-                <div className="mb-2">
+                <div className="">
                     <Image
                         src={'/images/eventbrite.svg'}
                         width={0}
                         height={0}
                         alt="Eventbrite"
-                        className="w-36 h-20 "
+                        className="w-40 h-16 "
                     />
                 </div>
                 <h1 className="text-4xl text-strongText font-bold mb-2 text-center"> Wine tasting event</h1>
