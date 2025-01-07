@@ -19,10 +19,10 @@ const BookSpecialMenu = () => {
                 </div>
                 <h1 className="text-4xl text-strongText font-bold mb-2 text-center"> Book your own Special Menu now for only for 50€ </h1>
                 <div className="text-xl text-textWeak  mb-6 max-w-lg text-center">
-                    Welcome drink (0.1 Prosecco)
-                    Appetizer  + 0.1 Wine
-                    Main Course 1 + 0.1 Wine
-                    Main Course 2 + 0.1 Wine &
+                    Welcome drink (0.1 Prosecco)<br />
+                    Appetizer  + 0.1 Wine<br />
+                    Main Course 1 + 0.1 Wine<br />
+                    Main Course 2 + 0.1 Wine <br />
                     Dessert
                 </div>
                 <button className="uppercase bg-primary text-white text-sm border-2 border-primary rounded-md px-20 py-2 font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
