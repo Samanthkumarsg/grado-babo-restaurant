@@ -12,6 +12,7 @@ import WineSection from "./components/WineSection";
 import Booking from "./components/Booking";
 import Hero from "./components/Hero";
 import BookSpecialMenu from "./components/BookSpecialMenu";
+import CookieConsentBanner from "./components/CookieConsentBanner";
 
 
 export default function Page() {
@@ -31,6 +32,7 @@ export default function Page() {
       <PaymentOptions />
       <Contact />
       <Footer />
+      {/* <CookieConsentBanner /> */}
     </div>
   );
 }
