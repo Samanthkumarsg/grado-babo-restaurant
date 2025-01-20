@@ -11,28 +11,29 @@ const WineImages = () => {
             <div className=" flex flex-col items-end jsutify-center">
                 <div className=" flex items-center justify-end">
                     <Image
-                        src={'/images/wineGlasses.svg'}
+                        src={'/images/Wine_Bottel.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
-                        className="size-36 md:52 lg:52 xl:size-52"
+                        className="w-36 h-36 md:h-32 md:w-32 lg:h-52 lg:w-52 xl:h-52 xl:w-52 rounded-full "
                     />
                 </div>
 
-                <div className=" flex items-center justify-center mt-2">
+                <div className=" flex items-center justify-center mt-2 ">
                     <Image
-                        src={'/images/wineGlass.svg'}
+                        src={'/images/Wine_Glass.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
-                        className="size-48 md:size-64 lg:size-64 xl:size-64 "
+                        className="h-48 w-48 sm:w-64 sm:h-64 md:h-64 md:w-64 lg:h-64 lg:w-64 xl:h-64 xl:w-64 rounded-full "
+                        priority
                     />
                 </div>
             </div>
 
             <div className=" flex ">
                 <Image
-                    src={'/images/about.svg'}
+                    src={'/images/wineGlass.svg'}
                     width={0}
                     height={0}
                     alt="Catering Icon"

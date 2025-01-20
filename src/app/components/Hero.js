@@ -19,7 +19,7 @@ export default function Hero() {
           Grado Babo
         </h1>
         <h6 className="text-textWeak font-medium text-md md:text-lg lg:text-lg xl:text-lg   uppercase tracking-widest">
-          An Italian Vegan Restaurant
+          An Italian Vegan Bistro
         </h6>
         <div className="max-w-2xl  text-textWeak text-xl  font-playfair tracking-wider  font-normal mt-6 flex flex-col text-center leading-normal">
           Experience the magic of refined Italian cuisine in Berlin crafted with fresh, seasonal ingredients and boundless passion.

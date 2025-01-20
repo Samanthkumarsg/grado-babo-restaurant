@@ -13,6 +13,7 @@ import Booking from "./components/Booking";
 import Hero from "./components/Hero";
 import BookSpecialMenu from "./components/BookSpecialMenu";
 
+
 export default function Page() {
   return (
     <div className="">
