@@ -8,15 +8,15 @@ export default function Feedback() {
     const slides = [
         {
             quote: "“Cute 100% vegan Italian restaurant with delicious homemade food. Staff is super nice and welcoming and the ambience is a mix of classical and relaxed Italian vibes. Food was definitely outstanding and for a fair price.”",
-            author: "John Doe"
+            author: "-Samuel Alamo"
         },
         {
-            quote: "“Amazing experience! The food is always fresh, and the ambiance is just perfect for a relaxed evening with friends. Highly recommend it!”",
-            author: "Jane Smith"
+            quote: "“Great place for aperitivo or dinner! Good Italian food (all vegan!), nice atmosphere and very friendly staff. Will definitely come back :)”",
+            author: "-Alice B"
         },
         {
-            quote: "“The best vegan pizza in town! The crust was perfectly crispy, and the toppings were full of flavor. Definitely a new favorite place for me.”",
-            author: "Alice Williams"
+            quote: "“Finally, a women-run, women-safe bar. Lovely staff, healthy and tasty vegan food (their vegan parmigiana is amazing!. Quality wines with a great variety.”",
+            author: "-Roberta Maddalena"
         }
     ];
 

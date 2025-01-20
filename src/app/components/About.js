@@ -26,7 +26,7 @@ export default function About() {
                     </p>
                     <div className="mt-8 flex items-center justify-center sm:justify-center md:justify-start lg:justify-start xl:justify-start">
                         <button className="uppercase text-primary text-sm border-2 border-primary px-20 py-2.5  rounded-md font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
-                            Know More
+                            Visit Us
                         </button>
                     </div>
                 </div>

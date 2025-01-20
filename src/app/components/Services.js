@@ -9,7 +9,7 @@ export default function Services() {
                 </h1>
                 <h1 className="text-3xl font-bold tracking-wide text-strong mt-2">Experience Grado Babo</h1>
                 <p className="text-textWeak text-xl mt-4 max-w-2xl text-pretty leading-relaxed">
-                    Lorem ipsum dolor sit amet consectetur. In risus vitae diam nisl amet. Nunc nulla felis nulla vulputate tempor felis pretium quam pretium. Ut porttitor ut augue adipiscing convallis. Porta a eu vitae aliquet pellentesque lobortis vitae.
+                    Enjoy Grado Babo your way—relax with home delivery, explore our curated wine selection, or dine in and savor expertly paired dishes in a cozy ambiance. Every moment with us is crafted to be special.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 mt-8  gap-8 ">

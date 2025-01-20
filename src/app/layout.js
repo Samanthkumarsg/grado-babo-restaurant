@@ -1,6 +1,6 @@
 import "./globals.css";
 import { Figtree, Playfair_Display } from '@next/font/google';
-
+import { Analytics } from "@vercel/analytics/react"
 export const metadata = {
   title: "Grado Babo",
   description: "An italian vegan restaurant",
@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
       <body
         className={figtree.className}
       >
+        <Analytics />
         {children}
       </body>
     </html>
