@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const Booking = () => {
     return (
@@ -24,9 +25,10 @@ const Booking = () => {
                 </div>
                 <h1 className="text-4xl text-strongText font-bold mb-2 text-center"> Wine tasting event</h1>
                 <p className="text-xl text-textWeak  mb-6 max-w-lg text-center">Follow us on event brite to stay updated on our next wine tasting event</p>
-                <button className="uppercase bg-primary text-white text-sm border-2 border-primary rounded-md px-20 py-2 font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
-                    Book your table
+                <Link href="tel:+49 17663341686"><button className="uppercase bg-primary text-white text-sm border-2 border-primary rounded-md px-20 py-2 font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
+                    Book with Eventbrite
                 </button>
+                </Link>
             </div>
             <div className="flex-1 flex items-end justify-end  ">
                 <Image

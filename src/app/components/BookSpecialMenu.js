@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 
 const BookSpecialMenu = () => {
     return (
@@ -25,9 +26,11 @@ const BookSpecialMenu = () => {
                     Main Course 2 + 0.1 Wine <br />
                     Dessert
                 </div>
-                <button className="uppercase bg-primary text-white text-sm border-2 border-primary rounded-md px-20 py-2 font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
+                <Link href="tel:+49 17663341686"><button className="uppercase bg-primary text-white text-sm border-2 border-primary rounded-md px-20 py-2 font-figtree font-medium tracking-widest hover:bg-primary hover:text-white transition-all duration-300 ease-in-out">
                     Book your table
                 </button>
+                </Link>
+
             </div>
             <div className="flex-1 flex sm:flex md:hidden lg:flex xl:flex items-center justify-end relative  py-6">
                 <Image
