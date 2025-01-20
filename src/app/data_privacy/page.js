@@ -67,7 +67,7 @@ export default function DataPrivacy() {
             <p>
                 We use third-party advertising cookies, such as Facebook Pixel, to analyze user
                 behavior and display relevant ads. For more information, refer to
-                <a href="https://www.facebook.com/policy" target="_blank" className="text-blue-500">Facebook's Privacy Policy</a>.
+                <a href="https://www.facebook.com/policy" target="_blank" className="text-blue-500">Facebook&apos;s Privacy Policy</a>.
                 You can manage your preferences at
                 <a href="http://www.youronlinechoices.com/uk/your-ad-choices/" target="_blank" className="text-blue-500">Your Online Choices</a>.
             </p>
