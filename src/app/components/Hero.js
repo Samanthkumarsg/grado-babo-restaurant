@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -28,9 +29,9 @@ export default function Hero() {
           Handjerystrasse 55, 12161 Berlin
         </div>
 
-        <button className="cursor-pointer uppercase bg-primary text-sm  rounded-md px-16 py-3 font-figtree font-medium tracking-widest text-white transition-all duration-100 ease-in-out hover:bg-primary/90 ">
+        <Link href="tel:+49 17663341686"> <button className="cursor-pointer uppercase bg-primary text-sm  rounded-md px-16 py-3 font-figtree font-medium tracking-widest text-white transition-all duration-100 ease-in-out hover:bg-primary/90 ">
           Book your table
-        </button>
+        </button></Link>
       </div>
 
     </div>

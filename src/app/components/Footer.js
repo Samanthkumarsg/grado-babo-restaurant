@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Footer() {
     return (
@@ -11,8 +12,8 @@ export default function Footer() {
                 </div>
             </div>
             <div className="mt-10 uppercase text-weak flex items-center justify-center flex-col md:flex-row gap-6 md:gap-12 font-medium font-figtree *:tracking-wider">
-                <h1 className="text-xs ">imprint</h1>
-                <h1 className="text-xs ">Data Privacy</h1>
+                <Link href={"/Impressum"}><h1 className="text-xs ">imprint</h1></Link>
+                <Link href={"/data_privacy"}> <h1 className="text-xs ">Data Privacy</h1></Link>
                 <h1 className="text-xs ">Change cookie settings</h1>
             </div>
         </div>
