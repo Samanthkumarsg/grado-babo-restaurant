@@ -35,9 +35,9 @@ module.exports = {
       },
       keyframes: {
         fadeBg: {
-          '0%': { backgroundImage: "url('/images/HeroImage.svg')", opacity: 1 },
+          '0%': { backgroundImage: "url('/images/plates.svg')", opacity: 1 },
 
-          '100%': { backgroundImage: "url('/images/glass.svg')", opacity: 1 },
+          '100%': { backgroundImage: "url('/images/cheers.svg')", opacity: 1 },
         },
       },
     },
