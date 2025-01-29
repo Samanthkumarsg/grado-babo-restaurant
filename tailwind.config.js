@@ -25,9 +25,21 @@ module.exports = {
         figtree: ['Figtree', 'sans-serif'],
       },
       backgroundImage: {
-        hero: "url('/images/BackgroundHero.svg')", // Define your hero background image
+        hero: "url('/images/BackgroundHero.svg')",
+        cheers: "url('/images/cheers.svg')", // Define your hero background image
+        // Define your hero background image
         heroRight: "url('/images/heroImage.png')",
-      }
+      },
+      animation: {
+        'fade-bg': 'fadeBg 10s infinite alternate ease-in-out',
+      },
+      keyframes: {
+        fadeBg: {
+          '0%': { backgroundImage: "url('/images/HeroImage.svg')", opacity: 1 },
+
+          '100%': { backgroundImage: "url('/images/glass.svg')", opacity: 1 },
+        },
+      },
     },
   },
   plugins: [],

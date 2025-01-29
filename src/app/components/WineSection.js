@@ -1,53 +1,27 @@
 import Image from "next/image";
 
-
-
-
-
 const WineImages = () => {
     return (
-        <div className=" flex items-center justify-center md:justify-center lg:justify-end xl:justify-end w-full py-6 ">
+        <div className=" flex items-center justify-center md:justify-center lg:justify-end xl:justify-end w-full  ">
 
             <div className=" flex flex-col items-end jsutify-center">
                 <div className=" flex items-center justify-end">
                     <Image
-                        src={'/images/Wine_Bottel.svg'}
+                        src={'/images/OurWines.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
-                        className="w-36 h-36 md:h-32 md:w-32 lg:h-52 lg:w-52 xl:h-52 xl:w-52 rounded-full "
-                    />
-                </div>
-
-                <div className=" flex items-center justify-center mt-2 ">
-                    <Image
-                        src={'/images/Wine_Glass.svg'}
-                        width={0}
-                        height={0}
-                        alt="Catering Icon"
-                        className="h-48 w-48 sm:w-64 sm:h-64 md:h-64 md:w-64 lg:h-64 lg:w-64 xl:h-64 xl:w-64 rounded-full "
-                        priority
+                        className="size-full py-6 "
                     />
                 </div>
             </div>
-
-            <div className=" flex ">
-                <Image
-                    src={'/images/wineGlass.svg'}
-                    width={0}
-                    height={0}
-                    alt="Catering Icon"
-                    className="size-64 md:size-80 lg:size-80 xl:size-80 relative -ml-3 -mt-4  rounded-full"
-                />
-            </div>
-
         </div>
     )
 }
 
 export default function WineSection() {
     return (
-        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center">
+        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center ">
             <div className="w-full max-w-screen-xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center ">
 
 

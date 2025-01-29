@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Services() {
     return (
-        <div className="w-full px-8 py-28 flex flex-col items-center justify-around bg-lightfill ">
+        <div className="w-full px-8 py-28 flex flex-col items-center justify-around bg-lightfill  ">
             <div className="w-full max-w-screen-xl flex flex-col items-start justify-start ">
                 <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">
                     Our Services
