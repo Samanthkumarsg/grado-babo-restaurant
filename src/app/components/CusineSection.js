@@ -7,34 +7,17 @@ const CusineImages = () => {
             <div className=" flex flex-col items-end jsutify-center">
                 <div className=" flex items-center justify-end">
                     <Image
-                        src={'/images/cusine.svg'}
+                        src={'/images/OurCuisine.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
-                        className="size-36 md:52 lg:52 xl:size-52"
+                        className="size-full py-6"
                     />
                 </div>
 
-                <div className=" flex items-center justify-center mt-2">
-                    <Image
-                        src={'/images/cusine3.svg'}
-                        width={0}
-                        height={0}
-                        alt="Catering Icon"
-                        className="size-48 md:size-64 lg:size-64 xl:size-64 "
-                    />
-                </div>
-            </div>
 
-            <div className=" flex ">
-                <Image
-                    src={'/images/cusine2.svg'}
-                    width={0}
-                    height={0}
-                    alt="Catering Icon"
-                    className="size-64 md:size-80 lg:size-80 xl:size-80 relative -ml-3 -mt-4"
-                />
             </div>
+            =
 
         </div>
     )
@@ -53,7 +36,7 @@ export default function CusineSection() {
                     <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">
                         OUR CUISINE
                     </h1>
-                    <h1 className="text-3xl font-bold tracking-wide text-strong mt-2 ">Experience our Traditional Cusine</h1>
+                    <h1 className="text-3xl font-bold tracking-wide text-strong mt-2 ">Experience our Traditional Cuisine</h1>
 
 
                     <div className="flex lg:hidden xl:hidden ">

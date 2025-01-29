@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className="h-[86vh] w-full">
+    <div className="h-[86vh] w-full z-30 sticky top-0">
       <div className="h-full w-full border-r p-3 flex flex-col items-center justify-center py-14 bg-fill bg-local bg-hero bg-cover bg-center bg-no-repeat">
         <h1 className="text-strongText font-semibold text-4xl leading-10 font-playfair mb-2 uppercase tracking-widest">
           Grado Babo
