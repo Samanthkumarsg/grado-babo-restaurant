@@ -4,7 +4,7 @@ const CusineImages = () => {
     return (
         <div className=" flex items-center justify-center md:justify-center lg:justify-start xl:justify-start w-full py-6 ">
 
-            <div className=" flex flex-col items-end jsutify-center">
+            <div className=" flex flex-col items-end justify-center">
                 <div className=" flex items-center justify-end">
                     <Image
                         src={'/images/OurCuisine.svg'}
@@ -17,7 +17,7 @@ const CusineImages = () => {
 
 
             </div>
-            =
+
 
         </div>
     )
@@ -32,7 +32,7 @@ export default function CusineSection() {
                     <CusineImages />
                 </div>
 
-                <div className="">
+                <div className="flex flex-col items-start justify-center">
                     <h1 className="text-sm tracking-widest text-strongText uppercase font-medium">
                         OUR CUISINE
                     </h1>

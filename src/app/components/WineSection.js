@@ -2,16 +2,16 @@ import Image from "next/image";
 
 const WineImages = () => {
     return (
-        <div className=" flex items-center justify-center md:justify-center lg:justify-end xl:justify-end w-full  ">
+        <div className=" flex items-center justify-center md:justify-center lg:justify-end xl:justify-end w-full py-6 ">
 
-            <div className=" flex flex-col items-end jsutify-center">
+            <div className=" flex flex-col items-end justify-center">
                 <div className=" flex items-center justify-end">
                     <Image
                         src={'/images/OurWines.svg'}
                         width={0}
                         height={0}
                         alt="Catering Icon"
-                        className="size-full py-6 "
+                        className="size-full py-6"
                     />
                 </div>
             </div>
@@ -21,8 +21,8 @@ const WineImages = () => {
 
 export default function WineSection() {
     return (
-        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center ">
-            <div className="w-full max-w-screen-xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center ">
+        <div className="w-full bg-lightfill px-8 py-20  flex items-center justify-center">
+            <div className="max-w-screen-2xl grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center ">
 
 
 
